@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const clientId = '1350775177985921034';
-    const redirectUri = encodeURIComponent('http://localhost:3000/callback'); // REPLACE WITH YOUR REDIRECT URI
+    const redirectUri = encodeURIComponent('https://discord-ivory.vercel.app/callback'); // REPLACE WITH YOUR REDIRECT URI
     const discordLoginUrl = `https://discord.com/api/oauth2/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=code&scope=identify`;
     
     const loginButton = document.getElementById('discord-login');
