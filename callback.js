@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         try {
             const clientId = '1350775177985921034';
             const clientSecret = 'QQOC69TJ-cA-XRgRuIUoiRHi7uVmUOyN';
-            const redirectUri = 'http://localhost:3000/callback'; // REPLACE WITH YOUR REDIRECT URI
+            const redirectUri = 'https://discord-ivory.vercel.app/callback'; // REPLACE WITH YOUR REDIRECT URI
             
             // Exchange code for access token
             const tokenResponse = await fetch('https://discord.com/api/oauth2/token', {
